@@ -1,0 +1,46 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.signallitechat"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\LENOVO\Desktop\New folder\SignalLiteChat\app\src\main\AndroidManifest.xml:2:5-67
+11-->C:\Users\LENOVO\Desktop\New folder\SignalLiteChat\app\src\main\AndroidManifest.xml:2:22-64
+12
+13    <application
+13-->C:\Users\LENOVO\Desktop\New folder\SignalLiteChat\app\src\main\AndroidManifest.xml:3:5-16:19
+14        android:allowBackup="false"
+14-->C:\Users\LENOVO\Desktop\New folder\SignalLiteChat\app\src\main\AndroidManifest.xml:4:9-36
+15        android:debuggable="true"
+16        android:extractNativeLibs="false"
+17        android:label="Signal Lite Chat"
+17-->C:\Users\LENOVO\Desktop\New folder\SignalLiteChat\app\src\main\AndroidManifest.xml:5:9-41
+18        android:theme="@android:style/Theme.Material.Light.NoActionBar"
+18-->C:\Users\LENOVO\Desktop\New folder\SignalLiteChat\app\src\main\AndroidManifest.xml:6:9-72
+19        android:usesCleartextTraffic="true" >
+19-->C:\Users\LENOVO\Desktop\New folder\SignalLiteChat\app\src\main\AndroidManifest.xml:7:9-44
+20        <activity
+20-->C:\Users\LENOVO\Desktop\New folder\SignalLiteChat\app\src\main\AndroidManifest.xml:8:9-15:20
+21            android:name="com.example.signallitechat.MainActivity"
+21-->C:\Users\LENOVO\Desktop\New folder\SignalLiteChat\app\src\main\AndroidManifest.xml:9:13-41
+22            android:exported="true" >
+22-->C:\Users\LENOVO\Desktop\New folder\SignalLiteChat\app\src\main\AndroidManifest.xml:10:13-36
+23            <intent-filter>
+23-->C:\Users\LENOVO\Desktop\New folder\SignalLiteChat\app\src\main\AndroidManifest.xml:11:13-14:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->C:\Users\LENOVO\Desktop\New folder\SignalLiteChat\app\src\main\AndroidManifest.xml:12:17-69
+24-->C:\Users\LENOVO\Desktop\New folder\SignalLiteChat\app\src\main\AndroidManifest.xml:12:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->C:\Users\LENOVO\Desktop\New folder\SignalLiteChat\app\src\main\AndroidManifest.xml:13:17-77
+26-->C:\Users\LENOVO\Desktop\New folder\SignalLiteChat\app\src\main\AndroidManifest.xml:13:27-74
+27            </intent-filter>
+28        </activity>
+29    </application>
+30
+31</manifest>

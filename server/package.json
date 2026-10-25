@@ -1,0 +1,14 @@
+{
+  "name": "signal-lite-chat-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal WebSocket text chat server for Signal Lite Chat",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.5.0",
+    "ws": "^8.18.0"
+  }
+}
